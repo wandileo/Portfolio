@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Function</title>
+</head>
+
+<body>
+    <h1>Function with many returns</h1>
+    <script>
+        var medalForScore = function(score) {
+            if (score < 3) {
+
+                return "Congratulations. You get a Bronze medal!";
+            }
+
+            if (score < 7) {
+                return "Super Star! You grt a Silver medal!";
+            }
+
+            return "You are the best! You get a Gold medal!";
+        };
+        var yourScore = prompt("What is your score?")
+        alert(medalForScore(yourScore));
+    </script>
+</body>
+
+</html>
