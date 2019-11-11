@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Programming Challenges</title>
+</head>
+
+<body>
+    <h1>Are these arrays the same?</h1>
+    <p>I am comparing two arrays for equality using</p>
+    <script>
+        var areArraysSame = function(array1, array2) {
+            if (array1.length != array2.length) {
+                return false;
+            }
+            for (i = 0; i < array1.length; i++) {
+                if (array1[i] != array2[i]) {
+                    return false;
+                }
+            }
+            return true;
+        }
+        alert(areArraysSame([1, 2, 3], [1, 2, 3, 4]));
+    </script>
+</body>
+
+</html>

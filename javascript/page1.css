@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+    background-color: lightpink;
+    -webkit-text-fill-color: white;
+}
+
+body {
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Progaming Challenges 2 Page 103 </title>
+</head>
+
+<body>
+    <h1>Programming Challenges</h1>
+    <p>I am creating a random String using a while loop. </p>
+    <script>
+        var alphabet = "abcdefghijklmonopqrstuvwyz";
+        var randomString = ""
+        var i = 0;
+        while (i < 6) {
+            randomString += alphabet[Math.floor(Math.random() * alphabet.length)]
+            i++
+        }
+        console.log("My random string is " + randomString);
+    </script>
+</body>
+
+</html>
